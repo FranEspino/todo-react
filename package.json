@@ -1,0 +1,30 @@
+{
+  "name": "codiadmin",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.4",
+    "@emotion/styled": "^11.10.4",
+    "@mui/icons-material": "^5.10.6",
+    "@mui/material": "^5.10.8",
+    "react": "^18.2.0",
+    "react-burger-menu": "^3.0.8",
+    "react-dom": "^18.2.0",
+    "react-hook-form": "^7.37.0",
+    "react-router-dom": "^6.4.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-burger-menu": "^2.8.3",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0"
+  }
+}
